@@ -1,0 +1,11 @@
+# Byte-compiled / optimized / DLL files (Python clutter)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Operating System temporary files
+.DS_Store
+Thumbs.db
+
+# Streamlit local runtime state files
+.streamlit/

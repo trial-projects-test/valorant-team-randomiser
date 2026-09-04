@@ -1,0 +1,30 @@
+{
+  "maps": ["Abyss", "Ascent", "Bind", "Breeze", "Corrode", "Fracture", "Haven", "Icebox", "Lotus", "Pearl", "Split", "Summit", "Sunset"],
+  
+  "current_matchpool": ["Ascent", "Abyss", "Haven", "Lotus", "Split", "Summit", "Sunset"],
+  
+  "characters": {
+    "Controller": ["Astra", "Brimstone", "Clove", "Harbor", "Miks", "Omen", "Viper"],
+    "Duelist": ["Iso", "Jett", "Neon", "Phoenix", "Raze", "Reyna", "Waylay", "Yoru"],
+    "Initiator": ["Fade", "Gekko", "KAY/O", "Skye", "Sova", "Tejo"],
+    "Initiator (Stun)": ["Breach"],
+    "Sentinel (Hold)": ["Deadlock", "Sage", "Vyse"],
+    "Sentinel (Backstab)": ["Chamber", "Cypher", "Killjoy", "Veto"]
+  },
+  
+  "map_rules": {
+    "Abyss": { "Controller": ["Astra", "Clove", "Miks", "Omen"] },
+    "Ascent": { "Controller": ["Astra", "Brimstone", "Clove", "Miks", "Omen"] },
+    "Bind": { "Controller": ["Astra", "Brimstone", "Clove", "Miks", "Omen", "Viper"] },
+    "Breeze": { "Controller": ["Astra", "Harbor", "Omen", "Viper"] },
+    "Corrode": { "Controller": ["Astra", "Clove", "Harbor", "Miks", "Omen", "Viper"] },
+    "Fracture": { "Controller": ["Astra", "Brimstone", "Clove", "Harbor", "Miks", "Omen", "Viper"] },
+    "Haven": { "Controller": ["Astra", "Brimstone", "Clove", "Miks", "Omen"] },
+    "Icebox": { "Controller": ["Astra", "Harbor", "Omen", "Viper"] },
+    "Lotus": { "Controller": ["Astra", "Brimstone", "Clove", "Harbor", "Miks", "Omen", "Viper"] },
+    "Pearl": { "Controller": ["Astra", "Brimstone", "Clove", "Harbor", "Miks", "Omen", "Viper"] },
+    "Split": { "Controller": ["Astra", "Brimstone", "Clove", "Miks", "Omen", "Viper"] },
+    "Summit": { "Controller": ["Astra", "Brimstone", "Clove", "Harbor", "Miks", "Omen", "Viper"] },
+    "Sunset": { "Controller": ["Astra", "Brimstone", "Clove", "Harbor", "Miks", "Omen", "Viper"] }
+  }
+}
