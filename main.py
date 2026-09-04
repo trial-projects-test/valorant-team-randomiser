@@ -148,14 +148,23 @@ if "current_team" not in st.session_state:
 if "role_history" not in st.session_state:
     st.session_state.role_history = {}  # Tracks what role category each player rolled last match
 
-# 3. BUILD THE SIDEBAR FOR PLAYER NAMES
+# 3. BUILD THE SIDEBAR FOR PLAYER NAMES (With Smart Placeholders)
 st.sidebar.header("👤 Friend Group Setup")
 st.sidebar.write("Enter the names of the 5 players:")
 
 player_names = []
 for i in range(5):
-    name = st.sidebar.text_input(f"Player {i+1}", value=f"Player {i+1}", key=f"player_in_{i}")
-    player_names.append(name.strip())
+    # We change 'value' to an empty string, and use 'placeholder' for the vanishing ghost text!
+    name = st.sidebar.text_input(
+        label=f"Slot {i+1}", 
+        value="", 
+        placeholder=f"Enter Player {i+1} Name", 
+        key=f"player_in_{i}"
+    )
+    
+    # Fallback safety: If a box is left completely blank, it automatically defaults to 'Player 1', 'Player 2', etc.
+    final_name = name.strip() if name.strip() else f"Player {i+1}"
+    player_names.append(final_name)
 
 # Add space between inputs and buttons
 st.sidebar.write("")
