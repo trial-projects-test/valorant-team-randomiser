@@ -1,7 +1,7 @@
 {
   "maps": ["Abyss", "Ascent", "Bind", "Breeze", "Corrode", "Fracture", "Haven", "Icebox", "Lotus", "Pearl", "Split", "Summit", "Sunset"],
   
-  "current_matchpool": ["Ascent", "Abyss", "Haven", "Lotus", "Split", "Summit", "Sunset"],
+  "current_matchpool": ["Abyss", "Bind", "Corrode", "Haven", "Lotus", "Summit", "Sunset"],
   
   "characters": {
     "Controller": ["Astra", "Brimstone", "Clove", "Harbor", "Miks", "Omen", "Viper"],
